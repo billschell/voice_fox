@@ -1,0 +1,16 @@
+"Source:","/home/bill/kicad/voice_fox3/voice_fox3.kicad_sch"
+"Date:","Wed 24 May 2023 10:51:55 AM EDT"
+"Tool:","Eeschema 7.0.2-6a45011f42~172~ubuntu22.04.1"
+"Generator:","/usr/share/kicad/plugins/bom_csv_grouped_by_value.py"
+"Component Count:","8"
+
+"Collated Components:"
+
+"Item","Qty","Reference(s)","Value","LibPart","Footprint","Datasheet","DNP","AVAILABILITY","DESCRIPTION","MANUFACTURER","MAXIMUM_PACKAGE_HEIGHT","MF","MP","PACKAGE","PARTREV","PRICE","REV","STANDARD","Sim.Enable"
+"1","1","A2","node_mcu_esp8266","bills_library:node_mcu_esp8266","bills_library:node_mcu_esp8266","","","","","Seeed","N/A","","","","N/A","","","Manufacturer Recommendations","0"
+"2","1","J2","SJ1-2503A","SJ1-2503A:SJ1-2503A","CUI_SJ1-2503A","","","","","CUI INC","","","","","","","B","Manufacturer Recommendation","0"
+"3","1","J3","SJ1-3533NG","SJ1-3533NG:SJ1-3533NG","SJ1-3533NG_CUD","SJ1-3533NG","","","","","","","","","","","","","0"
+"4","1","Q1","2N3904","Transistor_BJT:2N3904","Package_TO_SOT_THT:TO-92_Inline","https://www.onsemi.com/pub/Collateral/2N3903-D.PDF","","","","","","","","","","","","","0"
+"5","2","R1, R2","100","Device:R","Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal","~","","","","","","","","","","","","",""
+"6","1","R5","10K","Device:R","Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal","~","","","","","","","","","","","","",""
+"7","1","U1","DFR0299","DFR0299:DFR0299","dfr0299:MODULE_DFR0299","","","Unavailable","Dfplayer - a Mini Mp3 Player","","","DFRobot","DFR0299","None","","None","","","0"

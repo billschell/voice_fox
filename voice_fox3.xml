@@ -1,0 +1,467 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/home/bill/kicad/voice_fox3/voice_fox3.kicad_sch</source>
+    <date>Wed 24 May 2023 10:51:55 AM EDT</date>
+    <tool>Eeschema 7.0.2-6a45011f42~172~ubuntu22.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Foxhunt HT transmitter voice ID module</title>
+        <company>Bill Schell - W2WZ</company>
+        <rev/>
+        <date>2023-05-24</date>
+        <source>voice_fox3.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="A2">
+      <value>node_mcu_esp8266</value>
+      <footprint>bills_library:node_mcu_esp8266</footprint>
+      <fields>
+        <field name="MANUFACTURER">Seeed</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">N/A</field>
+        <field name="PARTREV">N/A</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="Sim.Enable">0</field>
+      </fields>
+      <libsource lib="bills_library" part="node_mcu_esp8266" description=""/>
+      <property name="PARTREV" value="N/A"/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="N/A"/>
+      <property name="MANUFACTURER" value="Seeed"/>
+      <property name="Sim.Enable" value="0"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="voice_fox3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dffdddff-f3ba-40e6-94f7-1f7fd7161a4b 446954de-e08e-4c63-9399-11c4a3a7f942</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>SJ1-2503A</value>
+      <footprint>CUI_SJ1-2503A</footprint>
+      <fields>
+        <field name="MANUFACTURER">CUI INC</field>
+        <field name="REV">B</field>
+        <field name="STANDARD">Manufacturer Recommendation</field>
+        <field name="Sim.Enable">0</field>
+      </fields>
+      <libsource lib="SJ1-2503A" part="SJ1-2503A" description=""/>
+      <property name="MANUFACTURER" value="CUI INC"/>
+      <property name="REV" value="B"/>
+      <property name="STANDARD" value="Manufacturer Recommendation"/>
+      <property name="Sim.Enable" value="0"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="voice_fox3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8b00d799-656e-47c0-b9a6-85da348f5137</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>SJ1-3533NG</value>
+      <footprint>SJ1-3533NG_CUD</footprint>
+      <datasheet>SJ1-3533NG</datasheet>
+      <fields>
+        <field name="Sim.Enable">0</field>
+      </fields>
+      <libsource lib="SJ1-3533NG" part="SJ1-3533NG" description=""/>
+      <property name="Sim.Enable" value="0"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="voice_fox3.kicad_sch"/>
+      <property name="ki_keywords" value="SJ1-3533NG"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fe0b8bbf-e63c-486a-9cb0-22575a132b14</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>2N3904</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/2N3903-D.PDF</datasheet>
+      <fields>
+        <field name="Sim.Enable">0</field>
+      </fields>
+      <libsource lib="Transistor_BJT" part="2N3904" description="0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"/>
+      <property name="Sim.Enable" value="0"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="voice_fox3.kicad_sch"/>
+      <property name="ki_description" value="0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"/>
+      <property name="ki_keywords" value="NPN Transistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f6ade684-840d-43e4-9deb-980df15eb037</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>100</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="voice_fox3.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>30545f9e-3c52-429a-9ed9-a40693e96520</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>100</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="voice_fox3.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ec0fecb2-1999-42a2-b94c-76bfa9d12c45</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>10K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="voice_fox3.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5e48421e-16e5-426c-a68b-f6cd1a56b302</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>DFR0299</value>
+      <footprint>dfr0299:MODULE_DFR0299</footprint>
+      <fields>
+        <field name="AVAILABILITY">Unavailable</field>
+        <field name="DESCRIPTION">Dfplayer - a Mini Mp3 Player</field>
+        <field name="MF">DFRobot</field>
+        <field name="MP">DFR0299</field>
+        <field name="PACKAGE">None</field>
+        <field name="PRICE">None</field>
+        <field name="Sim.Enable">0</field>
+      </fields>
+      <libsource lib="DFR0299" part="DFR0299" description=""/>
+      <property name="AVAILABILITY" value="Unavailable"/>
+      <property name="PACKAGE" value="None"/>
+      <property name="MP" value="DFR0299"/>
+      <property name="PRICE" value="None"/>
+      <property name="DESCRIPTION" value="Dfplayer - a Mini Mp3 Player"/>
+      <property name="MF" value="DFRobot"/>
+      <property name="Sim.Enable" value="0"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="voice_fox3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>59479ddd-a936-417b-96f7-31d783f1d86c</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="DFR0299" part="DFR0299">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">DFR0299</field>
+        <field name="Footprint">MODULE_DFR0299</field>
+        <field name="AVAILABILITY">Unavailable</field>
+        <field name="PACKAGE">None</field>
+        <field name="MP">DFR0299</field>
+        <field name="PRICE">None</field>
+        <field name="DESCRIPTION">Dfplayer - a Mini Mp3 Player</field>
+        <field name="MF">DFRobot</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VCC" type="power_in"/>
+        <pin num="2" name="RX" type="input"/>
+        <pin num="3" name="TX" type="output"/>
+        <pin num="4" name="DAC_R" type="output"/>
+        <pin num="5" name="DAC_L" type="output"/>
+        <pin num="6" name="SPK1" type="passive"/>
+        <pin num="7" name="GND" type="power_in"/>
+        <pin num="8" name="SPK2" type="passive"/>
+        <pin num="9" name="IO1" type="bidirectional"/>
+        <pin num="10" name="GND" type="power_in"/>
+        <pin num="11" name="IO2" type="bidirectional"/>
+        <pin num="12" name="ADKEY1" type="input"/>
+        <pin num="13" name="ADKEY2" type="input"/>
+        <pin num="14" name="USB+" type="input"/>
+        <pin num="15" name="USB-" type="input"/>
+        <pin num="16" name="BUSY" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SJ1-2503A" part="SJ1-2503A">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">SJ1-2503A</field>
+        <field name="Footprint">CUI_SJ1-2503A</field>
+        <field name="MANUFACTURER">CUI INC</field>
+        <field name="REV">B</field>
+        <field name="STANDARD">Manufacturer Recommendation</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+        <pin num="4" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SJ1-3533NG" part="SJ1-3533NG">
+      <docs>SJ1-3533NG</docs>
+      <footprints>
+        <fp>SJ1-3533NG_CUD</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">SJ1-3533NG</field>
+        <field name="Footprint">SJ1-3533NG_CUD</field>
+        <field name="Datasheet">SJ1-3533NG</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="unspecified"/>
+        <pin num="2" name="2" type="unspecified"/>
+        <pin num="3" name="3" type="unspecified"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_BJT" part="2N3904">
+      <description>0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92</description>
+      <docs>https://www.onsemi.com/pub/Collateral/2N3903-D.PDF</docs>
+      <footprints>
+        <fp>TO?92*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">2N3904</field>
+        <field name="Footprint">Package_TO_SOT_THT:TO-92_Inline</field>
+        <field name="Datasheet">https://www.onsemi.com/pub/Collateral/2N3903-D.PDF</field>
+      </fields>
+      <pins>
+        <pin num="1" name="E" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="bills_library" part="node_mcu_esp8266">
+      <fields>
+        <field name="Reference">A</field>
+        <field name="Value">node_mcu_esp8266</field>
+        <field name="Footprint">bills_library:node_mcu_esp8266</field>
+        <field name="PARTREV">N/A</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">N/A</field>
+        <field name="MANUFACTURER">Seeed</field>
+      </fields>
+      <pins>
+        <pin num="J1_1" name="A0" type="bidirectional"/>
+        <pin num="J1_2" name="RSV1" type="bidirectional"/>
+        <pin num="J1_3" name="RSV2" type="bidirectional"/>
+        <pin num="J1_4" name="SD3" type="bidirectional"/>
+        <pin num="J1_5" name="SD2" type="bidirectional"/>
+        <pin num="J1_6" name="SD1" type="bidirectional"/>
+        <pin num="J1_7" name="CMD" type="bidirectional"/>
+        <pin num="J1_8" name="SD0" type="bidirectional"/>
+        <pin num="J1_9" name="CLK" type="bidirectional"/>
+        <pin num="J1_10" name="GND" type="power_in"/>
+        <pin num="J1_11" name="3V3" type="power_in"/>
+        <pin num="J1_12" name="EN" type="input"/>
+        <pin num="J1_13" name="RST" type="input"/>
+        <pin num="J1_14" name="GND" type="power_in"/>
+        <pin num="J1_15" name="VIN" type="power_in"/>
+        <pin num="J2_1" name="D0" type="bidirectional"/>
+        <pin num="J2_2" name="D1" type="bidirectional"/>
+        <pin num="J2_3" name="D2" type="bidirectional"/>
+        <pin num="J2_4" name="D3" type="bidirectional"/>
+        <pin num="J2_5" name="D4" type="bidirectional"/>
+        <pin num="J2_6" name="3V3" type="power_in"/>
+        <pin num="J2_7" name="GND" type="power_in"/>
+        <pin num="J2_8" name="D5" type="bidirectional"/>
+        <pin num="J2_9" name="D6" type="bidirectional"/>
+        <pin num="J2_10" name="D7" type="bidirectional"/>
+        <pin num="J2_11" name="D8" type="bidirectional"/>
+        <pin num="J2_12" name="D9" type="bidirectional"/>
+        <pin num="J2_13" name="D10" type="bidirectional"/>
+        <pin num="J2_14" name="GND" type="power_in"/>
+        <pin num="J2_15" name="3V3" type="power_in"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Device">
+      <uri>/usr/share/kicad/symbols//Device.kicad_sym</uri>
+    </library>
+    <library logical="SJ1-2503A">
+      <uri>/home/bill/kicad/symbols/SJ1-2503A.kicad_sym</uri>
+    </library>
+    <library logical="SJ1-3533NG">
+      <uri>/home/bill/kicad/symbols/2023-05-19_16-57-49.kicad_sym</uri>
+    </library>
+    <library logical="Transistor_BJT">
+      <uri>/usr/share/kicad/symbols//Transistor_BJT.kicad_sym</uri>
+    </library>
+    <library logical="bills_library">
+      <uri>/home/bill/kicad/bills_library/bills_library.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="GND">
+      <node ref="A2" pin="J1_10" pinfunction="GND" pintype="power_in"/>
+      <node ref="A2" pin="J1_14" pinfunction="GND" pintype="power_in"/>
+      <node ref="A2" pin="J2_14" pinfunction="GND" pintype="power_in"/>
+      <node ref="A2" pin="J2_7" pinfunction="GND" pintype="power_in"/>
+      <node ref="J2" pin="1" pintype="passive"/>
+      <node ref="Q1" pin="1" pinfunction="E" pintype="passive"/>
+      <node ref="U1" pin="10" pinfunction="GND" pintype="power_in"/>
+      <node ref="U1" pin="7" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="2" name="Net-(A2B-D5)">
+      <node ref="A2" pin="J2_8" pinfunction="D5" pintype="bidirectional"/>
+      <node ref="U1" pin="2" pinfunction="RX" pintype="input"/>
+    </net>
+    <net code="3" name="Net-(A2B-D6)">
+      <node ref="A2" pin="J2_9" pinfunction="D6" pintype="bidirectional"/>
+      <node ref="U1" pin="3" pinfunction="TX" pintype="output"/>
+    </net>
+    <net code="4" name="Net-(A2B-D7)">
+      <node ref="A2" pin="J2_10" pinfunction="D7" pintype="bidirectional"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+    </net>
+    <net code="5" name="Net-(A2B-D9)">
+      <node ref="A2" pin="J2_12" pinfunction="D9" pintype="bidirectional"/>
+      <node ref="U1" pin="16" pinfunction="BUSY" pintype="input"/>
+    </net>
+    <net code="6" name="Net-(J3-Pad3)">
+      <node ref="J3" pin="3" pinfunction="3" pintype="unspecified"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+    </net>
+    <net code="7" name="Net-(Q1-B)">
+      <node ref="Q1" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+    </net>
+    <net code="8" name="Net-(Q1-C)">
+      <node ref="J3" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="Q1" pin="3" pinfunction="C" pintype="passive"/>
+    </net>
+    <net code="9" name="Net-(U1-DAC_L)">
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="DAC_L" pintype="output"/>
+    </net>
+    <net code="10" name="Net-(U1-DAC_R)">
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="DAC_R" pintype="output"/>
+    </net>
+    <net code="11" name="Net-(U1-VCC)">
+      <node ref="A2" pin="J2_15" pinfunction="3V3" pintype="power_in"/>
+      <node ref="A2" pin="J2_6" pinfunction="3V3" pintype="power_in"/>
+      <node ref="U1" pin="1" pinfunction="VCC" pintype="power_in"/>
+    </net>
+    <net code="12" name="unconnected-(A2A-3V3-PadJ1_11)">
+      <node ref="A2" pin="J1_11" pinfunction="3V3" pintype="power_in+no_connect"/>
+    </net>
+    <net code="13" name="unconnected-(A2A-A0-PadJ1_1)">
+      <node ref="A2" pin="J1_1" pinfunction="A0" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="14" name="unconnected-(A2A-CLK-PadJ1_9)">
+      <node ref="A2" pin="J1_9" pinfunction="CLK" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="15" name="unconnected-(A2A-CMD-PadJ1_7)">
+      <node ref="A2" pin="J1_7" pinfunction="CMD" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="16" name="unconnected-(A2A-EN-PadJ1_12)">
+      <node ref="A2" pin="J1_12" pinfunction="EN" pintype="input+no_connect"/>
+    </net>
+    <net code="17" name="unconnected-(A2A-RST-PadJ1_13)">
+      <node ref="A2" pin="J1_13" pinfunction="RST" pintype="input+no_connect"/>
+    </net>
+    <net code="18" name="unconnected-(A2A-RSV1-PadJ1_2)">
+      <node ref="A2" pin="J1_2" pinfunction="RSV1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="19" name="unconnected-(A2A-RSV2-PadJ1_3)">
+      <node ref="A2" pin="J1_3" pinfunction="RSV2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="20" name="unconnected-(A2A-SD0-PadJ1_8)">
+      <node ref="A2" pin="J1_8" pinfunction="SD0" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="21" name="unconnected-(A2A-SD1-PadJ1_6)">
+      <node ref="A2" pin="J1_6" pinfunction="SD1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="22" name="unconnected-(A2A-SD2-PadJ1_5)">
+      <node ref="A2" pin="J1_5" pinfunction="SD2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="23" name="unconnected-(A2A-SD3-PadJ1_4)">
+      <node ref="A2" pin="J1_4" pinfunction="SD3" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="24" name="unconnected-(A2A-VIN-PadJ1_15)">
+      <node ref="A2" pin="J1_15" pinfunction="VIN" pintype="power_in+no_connect"/>
+    </net>
+    <net code="25" name="unconnected-(A2B-D0-PadJ2_1)">
+      <node ref="A2" pin="J2_1" pinfunction="D0" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="26" name="unconnected-(A2B-D1-PadJ2_2)">
+      <node ref="A2" pin="J2_2" pinfunction="D1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="27" name="unconnected-(A2B-D2-PadJ2_3)">
+      <node ref="A2" pin="J2_3" pinfunction="D2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="28" name="unconnected-(A2B-D3-PadJ2_4)">
+      <node ref="A2" pin="J2_4" pinfunction="D3" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="29" name="unconnected-(A2B-D4-PadJ2_5)">
+      <node ref="A2" pin="J2_5" pinfunction="D4" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="30" name="unconnected-(A2B-D8-PadJ2_11)">
+      <node ref="A2" pin="J2_11" pinfunction="D8" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="31" name="unconnected-(A2B-D10-PadJ2_13)">
+      <node ref="A2" pin="J2_13" pinfunction="D10" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="32" name="unconnected-(J2-Pad2)">
+      <node ref="J2" pin="2" pintype="passive+no_connect"/>
+    </net>
+    <net code="33" name="unconnected-(J2-Pad3)">
+      <node ref="J2" pin="3" pintype="passive+no_connect"/>
+    </net>
+    <net code="34" name="unconnected-(J2-Pad4)">
+      <node ref="J2" pin="4" pintype="passive+no_connect"/>
+    </net>
+    <net code="35" name="unconnected-(J3-Pad2)">
+      <node ref="J3" pin="2" pinfunction="2" pintype="unspecified+no_connect"/>
+    </net>
+    <net code="36" name="unconnected-(U1-ADKEY1-Pad12)">
+      <node ref="U1" pin="12" pinfunction="ADKEY1" pintype="input+no_connect"/>
+    </net>
+    <net code="37" name="unconnected-(U1-ADKEY2-Pad13)">
+      <node ref="U1" pin="13" pinfunction="ADKEY2" pintype="input+no_connect"/>
+    </net>
+    <net code="38" name="unconnected-(U1-IO1-Pad9)">
+      <node ref="U1" pin="9" pinfunction="IO1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="39" name="unconnected-(U1-IO2-Pad11)">
+      <node ref="U1" pin="11" pinfunction="IO2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="40" name="unconnected-(U1-SPK1-Pad6)">
+      <node ref="U1" pin="6" pinfunction="SPK1" pintype="passive+no_connect"/>
+    </net>
+    <net code="41" name="unconnected-(U1-SPK2-Pad8)">
+      <node ref="U1" pin="8" pinfunction="SPK2" pintype="passive+no_connect"/>
+    </net>
+    <net code="42" name="unconnected-(U1-USB+-Pad14)">
+      <node ref="U1" pin="14" pinfunction="USB+" pintype="input+no_connect"/>
+    </net>
+    <net code="43" name="unconnected-(U1-USB--Pad15)">
+      <node ref="U1" pin="15" pinfunction="USB-" pintype="input+no_connect"/>
+    </net>
+  </nets>
+</export>
